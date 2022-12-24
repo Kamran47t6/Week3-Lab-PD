@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int main(){
+int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13,num14,num15,add,sub,mul,result;
+cout<<"Enter 1st number :";
+cin>>num1;
+cout<<"ENter 2nd number :";
+cin>>num2;
+cout<<"ENter 3rd number :";
+cin>>num3;
+cout<<"ENter 4th number :";
+cin>>num4;
+cout<<"ENter 5th number :";
+cin>>num5;
+cout<<"ENter 6th number :";
+cin>>num6;
+cout<<"ENter 7th number :";
+cin>>num7;
+cout<<"ENter 8th number :";
+cin>>num8;
+cout<<"ENter 9th number :";
+cin>>num9;
+cout<<"ENter 10th number :";
+cin>>num10;
+cout<<"ENter 11th number :";
+cin>>num11;
+cout<<"ENter 12th number :";
+cin>>num12;
+cout<<"ENter 13th number :";
+cin>>num13;
+cout<<"ENter 14number :";
+cin>>num14;
+cout<<"ENter 15th number :";
+cin>>num15;
+add=num1+num2+num3+num4+num5;
+mul=num6*num7*num8*num9*num10;
+sub=num11-num12-num13-num14-num15;
+result=(add+mul)-sub;
+cout<<"Final result :"<<result;
+return 0;
+}
